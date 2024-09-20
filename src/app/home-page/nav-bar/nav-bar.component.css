@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    width:100%;
+    
+}
+.navBar{
+    width: 100%;
+    height: 67px;
+    background-color:#2B4593;
+    color: white;
+    display:flex ;
+    align-items: center;
+    box-shadow:-1px 1px 10px rgb(6, 55, 141);
+    
+    
+}
+.nav_logo {
+    height: 40px;
+    width: 80px;
+    
+}
+.navBar ul{
+    list-style: none;
+
+}
+.menubar{
+    color: white;
+    display: flex;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menubar,fa-solid fa-house{
+    color: white;
+}
+.menubar li a{
+    text-decoration: none;
+    padding: 9px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.menubar li :hover{
+    border-bottom:3px solid white ;
+    border-radius:15px ;
+    transition: 0.5s;
+}
+.nav_search{
+    display: flex;
+    height: 28px;
+    width: 650px;
+    margin-left : 25px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    
+}
+.search_select {
+    width: 50px;
+    height: 28px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    border: none;
+    background-color: white;
+
+}
+.search_input{
+    width: 500px;
+    height: 28px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.search_input:hover{
+    border: 2px solid transparent;
+    border: none;
+}
+.search_icon{
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    color:black;
+    height: 28px;
+    width: 20px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 4px;
+
+
+}
+.login{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+/*  this is the css code for the image slider  */
+.imgslider{
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+    color: black;
+}
