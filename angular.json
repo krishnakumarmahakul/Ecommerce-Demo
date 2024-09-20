@@ -23,8 +23,14 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets/image/public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/image",
+                "output": "/image"
               }
+              
             ],
             "styles": [
               "src/styles.css"
